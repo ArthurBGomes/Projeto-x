@@ -90,13 +90,20 @@ h1 {
 .link-voltar a:hover {
   background-color: #388e3c;
 }
-
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#Center{
+  left: 50%;
+}
 .video {
-      width: 640px;
-      height: 360px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.2);
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+justify-content:flex-end;
+align-self: center;
+width: 640px;
+height: 360px;
+box-shadow: 0 0 20px rgba(0,0,0,0.2);
+border-radius: 10px;
+
     }
